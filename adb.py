@@ -110,11 +110,20 @@ combined_jamo_to_coord = {
     'ㅞ': (jamo_to_coord['ㅜ'], jamo_to_coord['ㅔ']),
     'ㅟ': (jamo_to_coord['ㅜ'], jamo_to_coord['ㅣ']),
     'ㅢ': (jamo_to_coord['ㅡ'], jamo_to_coord['ㅣ']),
+    'ㄳ': (jamo_to_coord['ㄱ'], jamo_to_coord['ㅅ']),
+    'ㄵ': (jamo_to_coord['ㄴ'], jamo_to_coord['ㅈ']),
+    'ㄶ': (jamo_to_coord['ㄴ'], jamo_to_coord['ㅎ']),
+    'ㄺ': (jamo_to_coord['ㄹ'], jamo_to_coord['ㄱ']),
+    'ㄻ': (jamo_to_coord['ㄹ'], jamo_to_coord['ㅁ']),
+    'ㄼ': (jamo_to_coord['ㄹ'], jamo_to_coord['ㅂ']),
+    'ㄽ': (jamo_to_coord['ㄹ'], jamo_to_coord['ㅅ']),
+    'ㄾ': (jamo_to_coord['ㄹ'], jamo_to_coord['ㅌ']),
+    'ㄿ': (jamo_to_coord['ㄹ'], jamo_to_coord['ㅍ']),
+    'ㅀ': (jamo_to_coord['ㄹ'], jamo_to_coord['ㅎ']),
+    'ㅄ': (jamo_to_coord['ㅂ'], jamo_to_coord['ㅅ']),
 }
 
-# We know for sure that there are no lower case alphabets.
-# We know for sure that there are no special characters.
-# We are assuming that no word contains 겹받침. (e.g., ㅄ)
+# We know for sure that there are no lower case alphabets nor special characters.
 
 while True:
     input_string = input()
