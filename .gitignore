@@ -1,2 +1,4 @@
 .ipynb_checkpoints/
 test.ipynb
+__pycache__/
+screen.png
