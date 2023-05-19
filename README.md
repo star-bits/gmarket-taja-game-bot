@@ -6,9 +6,9 @@ https://github.com/star-bits/gmarket-taja-game-bot/assets/93939472/28862d30-d9eb
 
 ## Run
 ```shell
-# For manual typing:
+# manual typing:
 python adb.py
 
-# For OCR typing:
+# OCR assisted:
 python ocr.py
 ```
