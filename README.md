@@ -10,5 +10,5 @@ https://github.com/star-bits/gmarket-taja-game-bot/assets/93939472/28862d30-d9eb
 python adb.py
 
 # OCR assisted:
-python ocr.py
+python tesseract.py
 ```
